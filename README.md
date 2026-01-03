@@ -1,26 +1,53 @@
 # rpa-textui
 
-A standalone, modern Text UI system for showing interaction prompts.
+<div align="center">
 
-## Features
-- **Clean Design**: Dark pill-shaped design with keybind indicators.
-- **Easy Integration**: Simple exports to show/hide.
+![GitHub Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-textui?style=for-the-badge&logo=github&color=blue)
+![GitHub commits](https://img.shields.io/github/commits-since/RP-Alpha/rpa-textui/latest?style=for-the-badge&logo=git&color=green)
+![License](https://img.shields.io/github/license/RP-Alpha/rpa-textui?style=for-the-badge&color=orange)
+![Downloads](https://img.shields.io/github/downloads/RP-Alpha/rpa-textui/total?style=for-the-badge&logo=github&color=purple)
 
-## Installation
-1. Ensure `rpa-lib` is started.
-2. Add `ensure rpa-textui` to your `server.cfg`.
+**Clean Interaction Prompt System**
 
-## Usage
+</div>
+
+---
+
+## ✨ Features
+
+- 🎨 **Minimal Design** - Dark pill-shaped prompts
+- ⌨️ **Key Indicators** - Automatic keybind highlighting
+- ⚡ **Lightweight** - Zero idle resource usage
+
+---
+
+## 📥 Installation
+
+1. Download the [latest release](https://github.com/RP-Alpha/rpa-textui/releases/latest)
+2. Extract to your `resources` folder
+3. Add to `server.cfg`:
+   ```cfg
+   ensure rpa-textui
+   ```
+
+---
+
+## 📚 Usage
+
 ```lua
--- Show
+-- Show prompt
 exports['rpa-textui']:Show("[E] Interact")
 
--- Hide
+-- Hide prompt
 exports['rpa-textui']:Hide()
 ```
 
-## Credits
-- RP-Alpha Development Team
+---
 
-## License
-MIT
+## 📄 License
+
+MIT License - see [LICENSE](LICENSE) for details.
+
+<div align="center">
+  <sub>Built with ❤️ by <a href="https://github.com/RP-Alpha">RP-Alpha</a></sub>
+</div>
